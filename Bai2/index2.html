@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim mang hop le</title>
+</head>
+<body>
+<script>
+
+    function tryRemoveFromArray(arr,index){
+        let arr1=[];
+        for (let i = 0; i <arr.length ; i++) {
+            if(index<arr.length-1){
+                arr1=arr.splice(index,1);
+                return arr;
+            } else{
+                return arr;
+            }
+
+        }
+    }
+
+    console.log(tryRemoveFromArray([1,5,6,74,3,2,2],9))
+
+</script>
+
+</body>
+</html>
